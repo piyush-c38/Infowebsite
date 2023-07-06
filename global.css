@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-cabin: Cabin;
+  --font-biorhyme: BioRhyme;
+
+  /* font sizes */
+  --font-size-3xl: 1.38rem;
+  --font-size-mini: 0.94rem;
+  --font-size-13xl: 2rem;
+  --font-size-6xl: 1.56rem;
+  --font-size-mid: 1.06rem;
+  --font-size-24xl: 2.69rem;
+  --font-size-xl: 1.25rem;
+  --font-size-14xl: 2.06rem;
+  --font-size-sm: 0.88rem;
+  --font-size-lg: 1.13rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro-100: #e8e8e8;
+  --color-black: #000;
+  --color-gray: #1e1e1e;
+  --color-dodgerblue: #1181e7;
+  --color-darkslategray: #4a4a4a;
+  --color-whitesmoke: rgba(247, 247, 247, 0.63);
+
+  /* Gaps */
+  --gap-49xl: 4.25rem;
+  --gap-5xl: 1.5rem;
+  --gap-5xl-5: 1.53rem;
+  --gap-7xs: 0.38rem;
+  --gap-9xl: 1.75rem;
+  --gap-4xs: 0.56rem;
+  --gap-5xs: 0.5rem;
+  --gap-18xl: 2.31rem;
+  --gap-base: 1rem;
+  --gap-20xl: 2.44rem;
+  --gap-250xl: 16.81rem;
+  --gap-3xs: 0.63rem;
+
+  /* Paddings */
+  --padding-44xl: 3.94rem;
+  --padding-21xl: 2.5rem;
+  --padding-23xl: 2.63rem;
+  --padding-28xl: 2.94rem;
+  --padding-xs: 0.75rem;
+  --padding-3xs: 0.63rem;
+
+  /* border radiuses */
+  --br-sm: 14px;
+  --br-xs: 12px;
+}
