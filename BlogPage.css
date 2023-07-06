@@ -1,35 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .blogs3,
 .logo1 {
   position: relative;
   /* font-size: 23px; */
 }
+
 .logo1 {
   text-decoration: none;
   color: inherit;
+  font-size: var(--font-size-6xl);
 }
+
 .blogs3 {
   line-height: 112.5%;
 }
+
 .blogs2,
 .navopt1 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .blogs2 {
   text-decoration: none;
   padding: var(--padding-3xs);
   justify-content: center;
   color: inherit;
 }
+
 .navopt1 {
-  width: 20.19rem;
+  width: auto;
   height: 3.63rem;
   overflow: hidden;
   flex-shrink: 0;
   justify-content: flex-start;
   gap: var(--gap-20xl);
 }
+
 .vector-icon4 {
   position: absolute;
   height: 75%;
@@ -42,6 +55,7 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .iconlinkedin2 {
   text-decoration: none;
   position: relative;
@@ -50,6 +64,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .vector-icon5,
 .vector-icon7 {
   position: absolute;
@@ -63,6 +78,7 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .vector-icon7 {
   height: 43.46%;
   width: 44.16%;
@@ -71,6 +87,7 @@
   bottom: 30.72%;
   left: 30.73%;
 }
+
 .social-media-icons2 {
   width: 10.59rem;
   display: flex;
@@ -79,6 +96,7 @@
   justify-content: flex-end;
   gap: 1.53rem;
 }
+
 .right-nav1 {
   flex: 1;
   display: flex;
@@ -90,11 +108,13 @@
   color: var(--color-black);
   font-family: var(--font-cabin);
 }
+
 .blog-page1,
 .nabbar1 {
   margin: 0;
   align-self: stretch;
 }
+
 .nabbar1 {
   display: flex;
   flex-direction: row;
@@ -107,6 +127,7 @@
   color: var(--color-dodgerblue);
   font-family: var(--font-biorhyme);
 }
+
 .blog-page1 {
   position: relative;
   font-size: inherit;
@@ -114,9 +135,11 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .welcome-to-my {
   display: block;
 }
+
 .welcome-to-my-container {
   margin: 0;
   align-self: stretch;
@@ -124,32 +147,38 @@
   font-size: var(--font-size-3xl);
   line-height: 112.5%;
 }
+
 .intro-content1,
 .intro-section1 {
   display: flex;
   justify-content: flex-start;
 }
+
 .intro-content1 {
   flex: 1;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-18xl);
 }
+
 .intro-section1 {
   align-self: stretch;
   flex-direction: row;
   align-items: center;
 }
+
 .enjoy-it {
   align-self: stretch;
   position: relative;
   line-height: 112.5%;
 }
+
 .underline-latestarticles-icon1 {
   position: relative;
   width: 6.5rem;
   height: 0.19rem;
 }
+
 .title-latest-articles {
   display: flex;
   flex-direction: column;
@@ -158,24 +187,29 @@
   gap: var(--gap-5xs);
   font-size: var(--font-size-13xl);
 }
+
 .date,
 .heading3 {
   align-self: stretch;
   position: relative;
 }
+
 .date {
   font-size: var(--font-size-sm);
   color: var(--color-darkslategray);
 }
+
 .first-five {
   margin: 0;
 }
+
 .description4 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-mid);
   color: var(--color-gray);
 }
+
 .latestarticles,
 .temp-blogs {
   align-self: stretch;
@@ -183,6 +217,7 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 .temp-blogs {
   border-radius: var(--br-sm);
   background-color: var(--color-white);
@@ -191,22 +226,26 @@
   justify-content: center;
   gap: var(--gap-4xs);
 }
+
 .latestarticles {
   justify-content: flex-start;
   gap: var(--gap-9xl);
   font-size: var(--font-size-6xl);
 }
+
 .title-contact3 {
   position: relative;
   line-height: 112.5%;
   display: inline-block;
   width: 17rem;
 }
+
 .title-underline-icon1 {
   position: relative;
   width: 6.13rem;
   height: 0.19rem;
 }
+
 .title-contact2 {
   display: flex;
   flex-direction: column;
@@ -214,6 +253,7 @@
   justify-content: flex-start;
   gap: var(--gap-7xs);
 }
+
 .email-contact1 {
   text-decoration: none;
   flex: 1;
@@ -221,6 +261,7 @@
   line-height: 112.5%;
   color: inherit;
 }
+
 .social-media-icons3 {
   flex: 1;
   display: flex;
@@ -229,6 +270,7 @@
   justify-content: flex-end;
   gap: 1.53rem;
 }
+
 .email-contact-group {
   align-self: stretch;
   display: flex;
@@ -239,12 +281,14 @@
   gap: var(--gap-5xl);
   font-size: var(--font-size-3xl);
 }
+
 .content1,
 .footer1 {
   align-self: stretch;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .footer1 {
   background-color: var(--color-gainsboro-100);
   overflow: hidden;
@@ -254,21 +298,25 @@
   gap: var(--gap-5xl);
   font-size: var(--font-size-13xl);
 }
+
 .content1 {
   gap: var(--gap-49xl);
 }
+
 .blog-page,
 .content1,
 .nabbar-group {
   display: flex;
   justify-content: flex-start;
 }
+
 .nabbar-group {
   width: 67.63rem;
   flex-direction: column;
   align-items: center;
   gap: 3.63rem;
 }
+
 .blog-page {
   position: relative;
   background-color: var(--color-white);
@@ -283,47 +331,113 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
+
 @media screen and (max-width: 960px) {
   .nabbar1 {
     gap: var(--gap-3xs);
   }
+
   .email-contact1 {
     font-size: var(--font-size-mini);
   }
-  .blog-page {
+
+  .myphoto {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nabbar-container {
     width: 100%;
   }
+
+  .blogs4 {
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 3px;
+    border-radius: 10px;
+  }
+
+  .content2 {
+    gap: 4.439999999999998rem;
+    font-size: 2.81rem;
+  }
 }
-@media screen and (max-width: 420px) {
+
+@media screen and (max-width: 426px) {
   .blogs3 {
     font-size: var(--font-size-mini);
   }
+
   .right-nav1 {
     flex: unset;
     align-self: stretch;
   }
+
   .nabbar1 {
     flex-direction: column;
     gap: var(--gap-3xs);
     align-items: flex-start;
     justify-content: center;
   }
+
   .title-contact3 {
     font-size: var(--font-size-6xl);
   }
+
   .email-contact1 {
-    font-size: var(--font-size-mini);
+    font-size: 13.5px;
   }
+
   .blog-page,
   .nabbar-group {
     width: 100%;
     box-sizing: border-box;
   }
+
   .nabbar-group {
     padding-left: 0;
   }
+
   .blog-page {
     padding-top: var(--padding-21xl);
     padding-bottom: 0;
+  }
+
+  .blogs4 {
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 3px;
+    border-radius: 10px;
+  }
+
+  .nabbar-container {
+    width: 100%;
+  }
+
+  .myphoto {
+    width: auto;
+    height: auto;
+    margin: 57px 0px;
+  }
+
+  .myphoto-child {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .navopt2 {
+    width: auto;
+  }
+
+  .footer1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .article-list {
+    gap: 12px;
+  }
+
+  .content2 {
+    gap: 4.439999999999998rem;
+    font-size: 2.81rem;
   }
 }

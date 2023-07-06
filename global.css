@@ -1,6 +1,7 @@
-body {
-  margin: 0;
-  line-height: normal;
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 :root {
