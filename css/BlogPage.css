@@ -9,7 +9,9 @@ body {
   position: relative;
   /* font-size: 23px; */
 }
-
+.linking{
+  text-decoration: none;
+}
 .logo1 {
   text-decoration: none;
   color: inherit;
@@ -192,6 +194,7 @@ body {
 .heading3 {
   align-self: stretch;
   position: relative;
+  color: black;
 }
 
 .date {
