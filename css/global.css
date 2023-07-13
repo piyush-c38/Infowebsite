@@ -24,7 +24,8 @@ body{
 
   /* Colors */
   --color-white: #fff;
-  --color-gainsboro-100: #e8e8e8;
+  --color-gainsboro-100: #e8f7ff;
+  --color-footer-100: #e8e8e8;
   --color-black: #000;
   --color-gray: #1e1e1e;
   --color-dodgerblue: #1181e7;
