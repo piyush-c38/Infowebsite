@@ -58,3 +58,9 @@ body{
   --br-sm: 14px;
   --br-xs: 12px;
 }
+.nav-btn{
+  font-size: var(--font-size-mini);
+  border: 1.5px solid rgb(0, 0, 0);
+  padding: 4px;
+  border-radius: 10px
+}

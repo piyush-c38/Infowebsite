@@ -398,13 +398,38 @@ body {
     gap: 4.439999999999998rem;
     font-size: 2.81rem;
   }
+  .individual-blog {
+    padding: 20px 25px;
+    margin: 0px 4rem;
+    text-align: justify;
+    background-color: #f2faff;
+    border-radius: 10px;
+  }
+  .blog-page1 {
+    position: relative;
+    font-size: 2.3rem;
+    line-height: 112.5%;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .content-para{
+    font-size: 1.1rem;
+  } 
+  #find-more-blogs {
+    font-size: 1.2rem;
+}
 }
 
 @media screen and (max-width: 426px) {
   .blogs3 {
     font-size: var(--font-size-mini);
   }
-
+  .nav-btn {
+    font-size: var(--font-size-mini);
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 7px;
+    border-radius: 10px
+  }
   .right-nav1 {
     flex: unset;
     align-self: stretch;
@@ -478,4 +503,17 @@ body {
     gap: 4.439999999999998rem;
     font-size: 2.81rem;
   }
+
+  .individual-blog {
+    padding: 20px 25px;
+    margin: 0px 0.8rem;
+    gap:1rem;
+  }
+  .blog-page1 {
+    font-size: 1.7rem;
+    text-align: left;
+}
+  .content-para {
+    font-size: 1rem;
+}
 }
